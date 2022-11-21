@@ -147,7 +147,9 @@ width: 700;
 
 /*ESCUELA DE KITE SURF*/
 
-
+#body-escuela{
+    margin: 0;
+}
 .contenedor{
     width: 100%;
     display: grid;
