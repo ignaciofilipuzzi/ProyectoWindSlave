@@ -51,6 +51,10 @@ a{
     display: flex;
     justify-content: flex-start !important;
 }
+
+.navbar-toggler-custom{
+    border:none;
+}
 .header-logo-custom{
     width: 100;
     height: auto;
