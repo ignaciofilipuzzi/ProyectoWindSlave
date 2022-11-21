@@ -253,6 +253,9 @@ width: 700;
     .contenido h2{
         text-align: center;
     }
+    body{
+        margin: 0;
+    }
 }
 
 
