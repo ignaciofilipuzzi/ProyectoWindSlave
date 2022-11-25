@@ -1,0 +1,59 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #97e0e7;
+    height: auto;
+    width: auto;
+    align-items: center;
+    .redes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 100px 0;
+    }
+    .registro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 100px;
+        button{
+            height: 50px;
+            width: 100px;
+        }
+    }
+}
+
+.footer__logo{
+        height: 150px;
+        width: auto;
+        padding: 25px 10px;
+}
+
+.social__network{
+height: 50px;
+}
+.registrate-button{
+    margin-left: 250px;
+}
+
+@media screen and (max-width: 768px){
+    footer{
+    display: flex;
+    flex-direction: column;
+    .redes{
+        padding: 0px 0px 24px 0;
+    }
+    .registro{
+        padding-right: 0;
+        text-align: center;
+    }
+}
+
+.registrate-button{
+    height: 50px;
+    width: 100px;
+    margin: auto;
+}
+}

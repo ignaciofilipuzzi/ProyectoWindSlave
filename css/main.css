@@ -1,0 +1,104 @@
+* {
+  font-family: 'Mukta', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #97e0e7;
+  height: auto;
+  width: auto;
+  align-items: center; }
+  footer .redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0; }
+  footer .registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 100px; }
+    footer .registro button {
+      height: 50px;
+      width: 100px; }
+
+.footer__logo {
+  height: 150px;
+  width: auto;
+  padding: 25px 10px; }
+
+.social__network {
+  height: 50px; }
+
+.registrate-button {
+  margin-left: 250px; }
+
+@media screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column; }
+    footer .redes {
+      padding: 0px 0px 24px 0; }
+    footer .registro {
+      padding-right: 0;
+      text-align: center; }
+  .registrate-button {
+    height: 50px;
+    width: 100px;
+    margin: auto; } }
+
+.header-custom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 100vw; }
+
+.header-custom__navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  .header-custom__navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+    width: 100%; }
+    .header-custom__navbar ul li {
+      padding: 20px 30px; }
+
+.header__logo {
+  height: 80px;
+  width: 80px;
+  padding: 10px 10px; }
+
+.nav-index-custom {
+  width: 100vw;
+  background-color: transparent !important;
+  position: fixed;
+  z-index: 10000;
+  color: white; }
+  .nav-index-custom ul {
+    display: flex;
+    justify-content: flex-start !important; }
+
+.navbar-toggler-custom {
+  border: none; }
+
+.header-logo-custom {
+  width: 100;
+  height: auto;
+  padding-left: 20px; }
+
+.nav-link-custom {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+  font-size: large; }
