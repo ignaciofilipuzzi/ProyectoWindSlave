@@ -3,6 +3,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="shortcut icon" href="../imagenes/WL Logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,41 +13,65 @@
     </head>
 
     <body>
-        <header class="header-custom">
-            <a href="../index.html">
-                <div class="logo">
-                    <img src="../imagenes/WL Logo.png" class="header__logo" alt="">
+        <header>
+            <nav class="nav-index-custom navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                  <div class="logo">
+                    <img src="../imagenes/WL Logo.png" class="header-logo-custom header__logo" alt="">
                 </div>
-            </a>
-
-            <nav class="header-custom__navbar">
-                <ul>
-                    <a href="./nosotros.html">
-                        <li class="navbar__item">Sobre Nosotros</li>
-                    </a>
-                    <a href="./escuela.html">
-                        <li class="navbar__item">Escuela de Kite Surf</li>
-                    </a>
-                    <a href="./trips.html">
-                        <li class="navbar__item">Kite Surf Trips</li>
-                    </a>                        
-                    <a href="./contactanos.html">
-                        <li class="navbar__item">Contactanos</li>
-                    </a>
-                </ul>
-            </nav>
-        </header>
+                </a>
+                <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav-custom navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./pages/escuela.html">Escuela de Kite Surf</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./pages/trips.html">Kite Surf Trips</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./pages/contactanos.html">Contactanos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>          
+          </header>
 
         <main>
-            <h2>Contactanos</h2>
-        
-            <form action="" class="form">
-                <input type="text" name="Full Name" placeholder="Nombre y Apellido" class="input">
-                <input type="text" name="Phone" placeholder="Teléfono" class="input">
-                <input type="text" name="email" placeholder="Correo Electrónico" class="input">
-                <textarea name="comments" id="" cols="30" rows="10" placeholder="Motivo de tu consulta" class="input"></textarea>  
-                <input type="submit" value="Enviar" class="input">
-            </form>
+            <div>
+                <img class="contacto-image" src="../imagenes/kites piso.jpg" alt="">
+            
+                <section class="form-section">
+                <h2>Contactanos</h2>
+            
+                    <form action="" class="form">
+                        <div class="mb-3">
+                            <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="lastname" class="form-control" id="exampleFormControlInput1"placeholder="Apellido">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@xxxx.com">
+                        </div>
+                        <div class="mb-3">
+                            <input type="telephone" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono de Contacto">
+                        </div>
+                        <div class="mb-3">
+                            <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos tu Comentario!"></textarea>
+                        </div>
+                        <input class="btn btn-primary" type="submit" value="Enviar">
+                    </form>
+                </section>
+            </div>
         </main>
         
         <footer>
@@ -77,5 +102,8 @@
                 <button class="registrate-button">Registrate</button>
             </div>
         </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     </body>
 </html>
