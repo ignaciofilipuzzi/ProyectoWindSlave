@@ -57,3 +57,9 @@
     color: white;
     font-size: large;
 }
+
+.header-escuela{
+    grid-area: header;
+    grid-column: span 3;
+
+}

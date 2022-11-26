@@ -1,0 +1,55 @@
+.principiante-card{
+    grid-area: principiante;
+}
+.intermedio-card{
+    grid-area: intermedio;
+}
+.avanzado-card{
+    grid-area: avanzado;
+}
+
+
+
+.levels{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   justify-content: center;
+    padding: 100px 0;
+    height: auto;
+    width: auto;
+}
+
+
+
+.level-card{
+
+  
+    height: auto;
+    width: 400px;
+   padding: 50px 50px;
+   background-image: linear-gradient(to bottom, lightskyblue, white);
+}
+
+.level-title{
+    margin-left: 150px;
+}
+
+.card-image{
+    width: auto;
+    height: 300px;
+    
+    object-fit: cover;
+    box-shadow: 2px 4px 10px black;
+    &:hover{
+        transform: translateY(-5px);
+        transition: all 0.4s ease;
+    
+    }
+}
+
+.card-trips{
+    height: 200px;
+    width: 700px;
+    padding: 50px 0 50px;
+}

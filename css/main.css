@@ -4,6 +4,47 @@
 a {
   text-decoration: none; }
 
+.principiante-card {
+  grid-area: principiante; }
+
+.intermedio-card {
+  grid-area: intermedio; }
+
+.avanzado-card {
+  grid-area: avanzado; }
+
+.levels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding: 100px 0;
+  height: auto;
+  width: auto; }
+
+.level-card {
+  height: auto;
+  width: 400px;
+  padding: 50px 50px;
+  background-image: linear-gradient(to bottom, lightskyblue, white); }
+
+.level-title {
+  margin-left: 150px; }
+
+.card-image {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 2px 4px 10px black; }
+  .card-image:hover {
+    transform: translateY(-5px);
+    transition: all 0.4s ease; }
+
+.card-trips {
+  height: 200px;
+  width: 700px;
+  padding: 50px 0 50px; }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -51,6 +92,10 @@ footer {
     height: 50px;
     width: 100px;
     margin: auto; } }
+
+.footer-escuela {
+  grid-area: footer;
+  grid-column: span 3; }
 
 .header-custom {
   display: flex;
@@ -102,3 +147,117 @@ footer {
   padding: 30px;
   color: white;
   font-size: large; }
+
+.header-escuela {
+  grid-area: header;
+  grid-column: span 3; }
+
+.main-custom {
+  margin-top: 0; }
+
+.main__imagen {
+  width: 100%;
+  height: 100%; }
+
+main {
+  background-color: #188d98; }
+
+.img-carousel-custom {
+  width: 100%;
+  height: 700px;
+  object-fit: cover; }
+
+.text-carousel-custom {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: black;
+  opacity: 0.5; }
+
+.text-carousel-custom-white {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  background-color: black;
+  opacity: 0.5; }
+
+@media screen and (max-width: 768px) {
+  .img-carousel-custom {
+    height: 768px; }
+  .text-carousel-custom-white {
+    font-size: large; }
+  .text-carousel-custom {
+    font-size: large; } }
+
+#nosotros {
+  width: 100%;
+  height: 100%; }
+  #nosotros .nosotros-contenido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px; }
+
+#nosotros
+.nosotros-image {
+  height: 500;
+  width: 700; }
+
+.trips {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 300px; }
+
+.videos-trips {
+  margin: 30px 200px; }
+
+.trip-image {
+  height: 200px;
+  width: 700px; }
+
+#body-escuela {
+  margin: 0; }
+
+.contenedor {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "header header header" "contenido contenido contenido" "principiante intermedio avanzado" "footer footer footer"; }
+
+.contenido {
+  grid-area: contenido;
+  grid-column: span 3;
+  background-color: #41cecc;
+  color: #fff; }
+  .contenido h2 {
+    padding-left: 10px; }
+
+@media screen and (max-width: 768px) {
+  .contenido .contenedor {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "header " "contenido" "principiante" "intermedio" "avanzado" "footer"; } }
+
+.contenido .level-card {
+  padding: 0;
+  width: 100vw; }
+
+.contenido .card-image {
+  width: 100vw; }
+
+.contenido .contenido h2 {
+  text-align: center; }
+
+.contenido .nav-link-custom {
+  background-color: black;
+  opacity: 0.7;
+  justify-content: center; }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1000px;
+  margin-left: 100px; }

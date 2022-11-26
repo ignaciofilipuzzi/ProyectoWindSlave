@@ -1,0 +1,39 @@
+.img-carousel-custom{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    
+
+}
+
+.text-carousel-custom{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+
+.text-carousel-custom-white{
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+
+
+
+@media screen and (max-width: 768px){
+    .img-carousel-custom{
+        height: 768px;
+    }
+    .text-carousel-custom-white{
+        font-size: large;
+    }
+    .text-carousel-custom{
+        font-size: large;
+}
+}
