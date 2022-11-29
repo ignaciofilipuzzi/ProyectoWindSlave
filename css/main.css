@@ -196,8 +196,8 @@ footer {
 
 .content-myvideo {
   position: relative;
-  top: -500px;
-  left: 100px;
+  top: -600px;
+  left: 30%;
   color: #fff;
   font-size: xx-large; }
 
@@ -241,6 +241,19 @@ footer {
 .nosotros-image {
   height: 500;
   width: 700; }
+
+.nosotros-image {
+  background-image: url(../imagenes/pexels-jean-van-der-meulen-1559392.jpg);
+  background-size: cover;
+  padding: 20% 20%;
+  height: 100vh; }
+
+.nosotros-background {
+  background-color: #fff;
+  opacity: 90%;
+  border-radius: 0.375rem;
+  padding: 20px 30px;
+  box-shadow: 2px 4px 10px #023047; }
 
 .trips {
   display: flex;

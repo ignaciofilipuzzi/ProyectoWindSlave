@@ -3,54 +3,64 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="shortcut icon" href="../imagenes/WL Logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;500;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;500;700&display=swap" rel="stylesheet">
         <title>Wind Slave</title>
     </head>
 
     <body>
 
-        <header class="header-custom">
-            <a href="../index.html">
-                <div class="logo">
-                    <img src="../imagenes/WL Logo.png" class="header__logo" alt="">
+        <header>
+            <nav class="nav-index-custom navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                  <div class="logo">
+                    <img src="../imagenes/WL Logo.png" class="header-logo-custom header__logo" alt="">
                 </div>
-            </a>
-
-            <nav class="header-custom__navbar">
-                <ul>
-                    <a href="./nosotros.html">
-                        <li class="navbar__item">Sobre Nosotros</li>
-                    </a>
-                    <a href="./escuela.html">
-                        <li class="navbar__item">Escuela de Kite Surf</li>
-                    </a>
-                    <a href="./trips.html">
-                        <li class="navbar__item">Kite Surf Trips</li>
-                    </a>                        
-                    <a href="./contactanos.html">
-                        <li class="navbar__item">Contactanos</li>
-                    </a>
-                </ul>
-            </nav>
-        </header>
+                </a>
+                <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav-custom navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./escuela.html">Escuela de Kite Surf</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./trips.html">Kite Surf Trips</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./contactanos.html">Contactanos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>          
+          </header>
 
             <main>
-            <div id="nosotros">
+            <div class="nosotros-image">
+                <div class="nosotros-background">
                     <h2>Sobre Nosotros</h2>
                     <div class="nosotros-contenido">
                         <div>
                             <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur dolorem esse cum quam. Sapiente itaque eveniet minima dolorum tempore ipsam non exercitationem debitis, incidunt esse aut doloribus, eligendi mollitia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem, nesciunt. Fugit dolor blanditiis animi optio consequuntur dolore ipsam aspernatur, ad eos? Dolore, ex inventore. Distinctio voluptate temporibus nihil quo neque?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia repellat fugit incidunt amet animi. Inventore repellat ullam laudantium. Labore ea ratione minus enim corporis impedit reprehenderit vitae, exercitationem laudantium explicabo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. In, natus numquam! Consectetur, iste, eius facilis labore culpa, mollitia fugiat reprehenderit nostrum quaerat molestiae hic cumque quos enim sequi dolorum nesciunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum sapiente, perspiciatis enim, voluptatum consectetur libero ab repellat saepe, cupiditate dolor omnis aut itaque voluptatem. Sunt aspernatur nihil provident perspiciatis?
+                                Wind Slave nace en 2015 con el objetivo de crear no solo una escuela de Kite Surf sino una comunidad de 
+                                amantes de este maravilloso deporte. Hoy con mas de 200 alumnos somos la Escuela de Kite Surf más reconocida de 
+                                Zona Norte y nos encanta ver cómo año tras año nuestra Familia sigue creciendo!
+                                Además de nuestras clases, también brindamos servicio de reparación de Kites, compra-venta de equipos y organización
+                                de los Kite Trips más espectaculares que vayas a vivir! 
                             </p>
                         </div>
-                        <div>
-                            <img src="../imagenes/kite juan.png" alt="" class="nosotros-image">
-                        </div>
                     </div>
+                </div>
             </div>
         </main>
             
@@ -84,6 +94,8 @@
                 <button class="registrate-button">Registrate</button>
             </div>
         </footer>
-        
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
     </body>
 </html>
