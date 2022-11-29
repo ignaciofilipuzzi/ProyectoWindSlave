@@ -3,6 +3,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="shortcut icon" href="../imagenes/WL Logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,55 +13,81 @@
     </head>
     
     <body id="padre">
-        <header class="header-trip header-custom">
-            <a href="../index.html">
-                <div class="logo">
-                    <img src="../imagenes/WL Logo.png" class="header__logo" alt="">
+        <header>
+            <nav class="nav-index-custom navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                  <div class="logo">
+                    <img src="../imagenes/WL Logo.png" class="header-logo-custom header__logo" alt="">
                 </div>
-            </a>
-
-            <nav class="nav-trip header-custom__navbar">
-                <ul>
-                    <a href="./nosotros.html">
-                        <li class="navbar__item">Sobre Nosotros</li>
-                    </a>
-                    <a href="./escuela.html">
-                        <li class="navbar__item">Escuela de Kite Surf</li>
-                    </a>
-                    <a href="./trips.html">
-                        <li class="navbar__item">Kite Surf Trips</li>
-                    </a>                        
-                    <a href="./contactanos.html">
-                        <li class="navbar__item">Contactanos</li>
-                    </a>
-                </ul>
-            </nav>
-        </header>
+                </a>
+                <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav-custom navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./escuela.html">Escuela de Kite Surf</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./trips.html">Kite Surf Trips</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link-custom nav-link" href="./contactanos.html">Contactanos</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>          
+          </header>
 
         <main>
-            <section class="trips trips-realizados">
-                <h2>Kite Surf Trips</h2>
-            
-                <div class="card-trips">
-                    <a href="">
-                        <h3 class="card-title">Próximos Viajes</h3>
-                        <img src="../imagenes/proximo viaje.png"" alt="" class="trip-image">
-                    </a>
+            <div class="card-trips-custom card">
+                <div class="border-card-trips">
+                    <img src="./../imagenes/proximo viaje.png" class="card-img-top" alt="...">
+                    <div class="card-body card-body-custom">
+                    <h5 class="card-title">Próximo Destinos</h5>
+                    <p class="card-text">Conocé cuáles serán nuestras próximos KiteTrips y anotate! </p>
+                    <p class="card-text"><small class="text-muted">Brasil | República Dominicana | Colombia</small></p>
+                    </div>
                 </div>
-            </section>
-            <section class="trips proximos-trips">
+                <div class="border-card-neext-trips">
+                    <img src="./../imagenes/viaje.png" class="card-img-top" alt="...">
+                    <div class="card-body card-body-custom">
+                    <h5 class="card-title">Nuestros KiteTrips</h5>
+                    <p class="card-text">Hacé Click y mirá todas nuestras aventuras </p>
+                    <p class="card-text"><small class="text-muted">Vení a disfrutar de un viaje a Puro Kite!</small></p>
+                    </div>
+                </div>
+              </div>
+            <!--<div class="main-trips">
+                <section class="trips trips-realizados">
+                    <h2>Kite Surf Trips</h2>
                 
-                <div class="card-trips">
-                    <a href="">
-                        <h3 class="card-title">Viajes realizados</h3>
-                        <img src="../imagenes/viaje.png" alt="" class="trip-image">
-                    </a>
-                </div>
-                <div class="trips videos-trips">                   
-                    <h3>Algunos videos de los viajes</h3>
-                    <iframe width="320" height="568" src="https://www.youtube.com/embed/EivOlup-oPI" title="27 de agosto de 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </section>
+                    <div class="card-trips">
+                        <a href="" class="card-trips-button">
+                            <h3 class="card-title">Próximos Viajes</h3>
+                            <img src="../imagenes/proximo viaje.png"" alt="" class="trip-image">
+                        </a>
+                    </div>
+                </section>
+                <section class="trips proximos-trips">
+                    
+                    <div class="card-trips">
+                        <a href="">
+                            <h3 class="card-title">Viajes realizados</h3>
+                            <img src="../imagenes/viaje.png" alt="" class="trip-image">
+                        </a>
+                    </div>
+                    <div class="trips videos-trips">                   
+                        <h3>Algunos videos de los viajes</h3>
+                        <iframe width="320" height="568" src="https://www.youtube.com/embed/EivOlup-oPI" title="27 de agosto de 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+            </div>-->
         </main>
         
         <footer class="footer-trips">
@@ -94,5 +121,7 @@
 
 
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
     </body>
 </html>
