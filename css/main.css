@@ -159,6 +159,11 @@ footer {
     .header-custom__navbar ul li {
       padding: 20px 30px; }
 
+@media screen and (max-width: 768px) {
+  .navbar-collapse-custom {
+    background-color: black;
+    opacity: 70%; } }
+
 .header__logo {
   height: 80px;
   width: 80px;
@@ -206,12 +211,22 @@ footer {
 .myvideo-custom {
   width: 100%; }
 
+@media screen and (max-width: 768px) {
+  .myvideo-custom {
+    width: auto;
+    height: 100vh; } }
+
 .content-myvideo {
   position: relative;
   top: -600px;
   left: 30%;
   color: #fff;
   font-size: xx-large; }
+
+@media screen and (max-width: 768px) {
+  .content-myvideo {
+    left: 12%;
+    font-size: large; } }
 
 .img-carousel-custom {
   width: 100%;
@@ -360,6 +375,13 @@ footer {
     }
 }
 */
+@media screen and (max-width: 768px) {
+  #body-escuela {
+    height: 1638px; }
+  .escuela-title {
+    top: 3%;
+    left: 24%; } }
+
 .form-section {
   padding: 130px 25% 30px 25%;
   background-image: url("../imagenes/piso.png");

@@ -1,7 +1,13 @@
 .myvideo-custom{
     width: 100%;
+   
 }
-
+@media screen and (max-width: 768px){
+    .myvideo-custom{
+    width: auto;
+    height: 100vh;
+    }
+}
 .content-myvideo{
     position: relative; 
     top: -600px;
@@ -9,6 +15,12 @@
     color: #fff;
     font-size: xx-large;
     
+}
+@media screen and (max-width: 768px){
+    .content-myvideo{
+        left: 12%;
+        font-size: large;
+    }
 }
 
 .img-carousel-custom{
