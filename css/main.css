@@ -52,7 +52,7 @@ a {
 
 .card-trips-custom {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   padding: 7% 30% 3% 20%;
   background-image: url("../imagenes/kite bote.jpg");
   background-size: cover;
@@ -67,18 +67,18 @@ a {
   border: solid 1px #023047;
   border-radius: 0.375rem;
   box-shadow: 2px 4px 10px #023047;
-  height: 150px; }
+  height: auto; }
   .border-card-trips:hover {
     transform: translateY(-20px);
     transition: all 0.4s ease; }
 
-.border-card-neext-trips {
+.border-card-next-trips {
   border: solid 1px #023047;
   border-radius: 0.375rem;
   box-shadow: 2px 4px 10px #023047;
   margin-top: 50px;
-  height: 150px; }
-  .border-card-neext-trips:hover {
+  height: auto; }
+  .border-card-next-trips:hover {
     transform: translateY(-20px);
     transition: all 0.4s ease; }
 
@@ -211,17 +211,21 @@ footer {
 .myvideo-custom {
   width: 100%; }
 
-@media screen and (max-width: 768px) {
-  .myvideo-custom {
-    width: auto;
-    height: 100vh; } }
+.contenedor-video {
+  position: relative; }
 
 .content-myvideo {
-  position: relative;
   top: -600px;
   left: 30%;
   color: #fff;
-  font-size: xx-large; }
+  font-size: xx-large;
+  position: absolute; }
+
+.video-background-custom {
+  background-image: url("../imagenes/video index.mp4");
+  width: 100%;
+  height: 100vh;
+  background-size: cover; }
 
 @media screen and (max-width: 768px) {
   .content-myvideo {
@@ -253,7 +257,10 @@ footer {
   .text-carousel-custom-white {
     font-size: large; }
   .text-carousel-custom {
-    font-size: large; } }
+    font-size: large; }
+  .myvideo-custom {
+    width: auto;
+    height: 63%; } }
 
 #nosotros {
   width: 100%;
