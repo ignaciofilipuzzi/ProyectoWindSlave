@@ -1,6 +1,19 @@
 #body-escuela{
     margin: 0;
 }
+.escuela-main{
+    background-image: url("../imagenes/kitee\ caribe.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 110%;
+}
+.escuela-title{
+position: relative;
+top: 15%;
+left: 3%;
+color: #fff;
+}
+/*
 .contenedor{
     width: 100%;
     display: grid;
@@ -55,3 +68,4 @@
         justify-content: center;
     }
 }
+*/

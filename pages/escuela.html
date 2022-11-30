@@ -3,6 +3,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/main.css">
         <link rel="shortcut icon" href="../imagenes/WL Logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,58 +14,82 @@
     
     
     <body id="body-escuela">
-        <div class="contenedor">
-        
-            <header class="header-escuela">
-                <div class="header-custom">
-                        <a href="../index.html">
-                            <div class="logo">
-                                <img src="../imagenes/WL Logo.png" class="header__logo" alt="">
-                            </div>
-                        </a>
-                    
-
-                    <nav class="header-custom__navbar">
-                        <ul>
-                            <a href="./nosotros.html">
-                                <li class="navbar__item">Sobre Nosotros</li>
-                            </a>
-                            <a href="./escuela.html">
-                                <li class="navbar__item">Escuela de Kite Surf</li>
-                            </a>
-                            <a href="./trips.html">
-                                <li class="navbar__item">Kite Surf Trips</li>
-                            </a>                        
-                            <a href="./contactanos.html">
-                                <li class="navbar__item">Contactanos</li>
-                            </a>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+             
+            <header>
+                <nav class="nav-index-custom navbar navbar-expand-lg bg-light">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                      <div class="logo">
+                        <img src="../imagenes/WL Logo.png" class="header-logo-custom header__logo" alt="">
+                    </div>
+                    </a>
+                    <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav-custom navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link-custom nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link-custom nav-link" href="./escuela.html">Escuela de Kite Surf</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link-custom nav-link" href="./trips.html">Kite Surf Trips</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link-custom nav-link" href="./contactanos.html">Contactanos</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>          
+              </header>
 
             <main class="contenido">
-                <h2>Escuela de Kite Surf</h2>
+                <div class="escuela-main">
+                    <div class="escuela-title">
+                        <h1>Escuela de Kite Surf</h1>
+                        <p>Elegí tu nivel y reservá tu clase!</p>
+                    </div>
+                    <div class=" card-level-escuela row row-cols-1 row-cols-md-3 g-4">
+                        <div class="level-card col">
+                            <div class="card-level-escuela-borde card h-100">
+                              <img src= "../imagenes/armando.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Principiante</h5>
+                                <p class="card-text">Para quienes nunca hicieron Kite Surf o quienes están empezando</p>
+                              </div>
+                              
+                            </div>
+                        </div>
+                        <div class="level-card col">
+                          <div class="card-level-escuela-borde card h-100">
+                            <img src= "../imagenes/desde abajo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Intermedio</h5>
+                              <p class="card-text">Si ya sabés kitear pero necesitás mejorar tus habilidades</p>
+                            </div>
+                            
+                          </div>
+                        </div>
+                        <div class="level-card col">
+                            <div class="card-level-escuela-borde card h-100">
+                              <img src= "../imagenes/creacion.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Avanzado</h5>
+                                <p class="card-text">Perfeccionamiento de trucos para quienes ya la tienen clara!</p>
+                              </div>
+                              
+                            </div>
+                          </div>
+                      </div>
+
+                </div>
             </main>
             
-            <div class="level-card principiante-card">
-                <a href="">
-                    <h3 class="level-title">Principiante</h3>
-                    <img src="../imagenes/kite principiante.png" alt="" class="card-image">
-                </a> 
-            </div>
-            <div class="level-card intermedio-card">
-                <a class="level-boton" href="">
-                    <h3 class="level-title">Intermedio</h3>
-                    <img src="../imagenes/kite intermedio.jpg" alt="" class="card-image">
-                </a>
-            </div>
-            <div class="level-card avanzado-card">
-                <a class="level-boton" href="">
-                    <h3 class="level-title">Avanzado</h3>
-                    <img src="../imagenes/kite avanzado.jpg" alt="" class="card-image">
-                </a>
-            </div>
+            
+           
         
                 
             
@@ -101,6 +126,9 @@
             
             
             </footer>
-        </div> 
+         
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
     </body>
 </html>
