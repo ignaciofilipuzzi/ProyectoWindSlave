@@ -1,7 +1,7 @@
 
 .card-level-escuela{
     height: auto;
-    padding: 10% 20%;
+    padding: 0% 20%;
     width: 100%;
 }
 .principiante-card{
@@ -62,20 +62,11 @@
 }
 
 .card-trips-custom{
+    background-color: transparent;
+    border: none;
    display: flex;
-   justify-content: flex-start;
-    padding: 7% 30% 3% 20%;
-    background-image: url("../imagenes/kite\ bote.jpg");
-    background-size: cover;
-    height: 1145px;
-    width: auto;
-    background-position: bottom;
-
-    @media screen and (max-width: 768px){
-        padding: 30% 10% 3% 10%
-        
-    }
-
+   justify-content: space-evenly;
+    padding: 4% 30% 3% 20%;
 }
 .border-card-trips{
     border: solid 1px #023047;
@@ -107,3 +98,12 @@
 .card-body-custom{
     background-color: white;
 }
+@media screen and (max-width: 768px){
+    .card-trips-custom{
+    padding: 10% 10% 3% 10%
+}
+    .card-level-escuela{
+        padding: 0% 16%;
+        margin-left: 0%;
+    }
+}   

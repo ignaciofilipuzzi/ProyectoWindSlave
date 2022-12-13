@@ -21,3 +21,10 @@
     
     background-color: transparent;
 }
+@media screen and (max-width: 768px){
+    .form-section-background{
+    width: 148%;
+    position: relative;
+    left: -22%;
+    }
+}

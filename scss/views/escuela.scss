@@ -10,74 +10,34 @@
     background-position: center;
     height: 110%;
 }
+.escuela-contenido{
+    position: relative;
+    top: 14%;
+}
 .escuela-title{
 position: relative;
 top: 15%;
 left: 3%;
 color: #fff;
 width: 97%;
-}
-/*
-.contenedor{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, auto);
-    grid-template-areas:    
-    "header header header"
-    "contenido contenido contenido"
-    "principiante intermedio avanzado"
-    "footer footer footer";
-}
-
-
-.contenido{
-    grid-area: contenido;
-    grid-column: span 3;
-    background-color: rgb(65, 206, 204);
-    color: #fff;
-    h2{
-        padding-left: 10px;
-    }
-
-}
-.contenido{
-    @media screen and (max-width: 768px){
-        .contenedor{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
-        grid-template-areas: 
-        "header "
-        "contenido"
-        "principiante"
-        "intermedio"
-        "avanzado"
-        "footer";
+    h1{
+    text-shadow: 2px 2px #023047;
         }
-    }
-
-    .level-card{
-        padding: 0;
-        width: 100vw;
-    }
-    .card-image{
-        width: 100vw;
-    }
-    .contenido h2{
-        text-align: center;
-    }
-    .nav-link-custom{
-        background-color: black;
-        opacity: 0.7;
-        justify-content: center;
-    }
+    p{
+    text-shadow: 1px 1px #023047;    
+        }
 }
-*/
+
 @media screen and (max-width: 768px){
     #body-escuela{
     height: 1638px;}
     .escuela-title{
         top: 3%;
-        left: 24%;
-        width: 76%;}
+        left: 0;
+        text-align: center;
+        }
+    .escuela-contenido{
+        top: 6%;
+    }
+    
     }

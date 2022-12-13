@@ -1,3 +1,9 @@
+.trips-main{
+    background-image: url("../imagenes/kite\ bote.jpg");
+    background-size: cover;
+    height: 140%;
+    background-position: bottom;
+}
 .trips{
     display: flex;
     flex-direction: column;
@@ -19,4 +25,36 @@
 }
 .trips-realizados{
     margin-top: 0;
+}
+
+.trips-contenido{
+    position: relative;
+    top: 11%;
+}
+.trips-title {
+    position: relative;
+    top: 15%;
+    left: 3%;
+    color: #fff;
+    width: 97%;
+    h1{
+    text-shadow: 2px 2px #023047;
+    }
+    p{
+    text-shadow: 1px 1px #023047;    
+    }
+}
+
+@media screen and (max-width: 768px){
+    .trips-title{
+        top: 3%;
+        text-align: center;
+    }
+    .trips-main{
+        background-image: url("../imagenes/kite\ bote.jpg");
+        background-size: cover;
+        height: 102%;
+        background-position: none;
+        background-position-x: 657px;
+    }
 }

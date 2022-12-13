@@ -22,12 +22,7 @@
         }
     }
 }
-@media screen and (max-width: 768px){
-    .navbar-collapse-custom{
-        background-color: black;    
-        opacity: 70%;
-}
-}
+
 
 
 
@@ -38,9 +33,9 @@
 }
 
 .nav-index-custom{
-    width: 100vw;
+    width: auto;
     background-color: transparent !important;
-    position: fixed;
+    position: absolute;
     z-index: 10000;
     color: #fff;
     ul{
@@ -70,4 +65,13 @@
     grid-area: header;
     grid-column: span 3;
 
+}
+@media screen and (max-width: 768px){
+    .navbar-collapse-custom{
+        background-color: black;    
+        opacity: 70%;
+}
+    .nav-index-custom{
+        width: 100vw;
+    }
 }

@@ -32,3 +32,18 @@ width: 700;
     
     }
 }
+@media screen and (max-width: 768px){
+    .nosotros-image{
+        background-position: -600px;
+    }
+    .nosotros-background{
+        position: relative;
+        top: 15%;
+        left: -18%;
+        width: 138%;
+        height: 65%;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
