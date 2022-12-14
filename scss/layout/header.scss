@@ -22,16 +22,11 @@
         }
     }
 }
-
-
-
-
 .header__logo{
     height: 80px;
     width: 80px;
     padding: 10px 10px;
 }
-
 .nav-index-custom{
     width: auto;
     background-color: transparent !important;
@@ -43,7 +38,6 @@
         justify-content: flex-start !important;
     }
 }
-
 .navbar-toggler-custom{
     border:none;
 }
@@ -52,7 +46,6 @@
     height: auto;
     padding-left: 20px;
 }
-
 .nav-link-custom{
     display: flex;
     justify-content: space-between;
@@ -60,7 +53,6 @@
     color: #fff;
     font-size: large;
 }
-
 .header-escuela{
     grid-area: header;
     grid-column: span 3;

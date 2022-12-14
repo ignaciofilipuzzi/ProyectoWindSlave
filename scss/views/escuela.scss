@@ -1,9 +1,6 @@
 #body-escuela{
     margin: 0;
 }
-
-
-
 .escuela-main{
     background-image: url("../imagenes/kitee\ caribe.jpg");
     background-size: cover;
@@ -27,7 +24,6 @@ width: 97%;
     text-shadow: 1px 1px #023047;    
         }
 }
-
 @media screen and (max-width: 768px){
     #body-escuela{
     height: 1638px;}
@@ -39,5 +35,4 @@ width: 97%;
     .escuela-contenido{
         top: 6%;
     }
-    
     }
