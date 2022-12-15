@@ -192,7 +192,7 @@ footer {
   padding: 10px 10px; }
 
 .nav-index-custom {
-  width: auto;
+  width: 100%;
   background-color: transparent !important;
   position: absolute;
   z-index: 10000;
@@ -202,7 +202,7 @@ footer {
     justify-content: flex-start !important; }
 
 .navbar-nav-custom {
-  width: 100vw; }
+  width: 100%; }
 
 .nav-item {
   padding-left: 1%;
@@ -227,6 +227,9 @@ footer {
 .header-escuela {
   grid-area: header;
   grid-column: span 3; }
+
+.conteiner-fluid-custom {
+  width: 100%; }
 
 @media screen and (max-width: 768px) {
   .navbar-collapse-custom {
