@@ -38,6 +38,14 @@
         justify-content: flex-start !important;
     }
 }
+.navbar-nav-custom{
+    width: 100vw;
+}
+.nav-item{
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
 .navbar-toggler-custom{
     border:none;
 }
@@ -52,6 +60,7 @@
     padding: 30px;
     color: #fff;
     font-size: large;
+    text-shadow: 1px 1px#023047;
 }
 .header-escuela{
     grid-area: header;
