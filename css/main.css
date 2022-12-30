@@ -90,7 +90,7 @@ footer {
   display: flex;
   flex-direction: column;
   background-color: #023047;
-  height: 40%;
+  height: auto;
   width: 100%; }
   footer .derechos {
     color: #fff;
@@ -140,9 +140,9 @@ footer {
   footer {
     display: flex;
     flex-direction: column;
-    height: 65%; }
+    height: auto; }
     footer .derechos {
-      padding: 7% 6% 0%; }
+      padding: 7% 2% 0%; }
     footer .footer-contenido {
       display: flex;
       flex-direction: column;
@@ -163,7 +163,7 @@ footer {
         border-top: solid 2px #fa0;
         border-bottom: solid 2px #fa0; }
   .footer-escuela {
-    height: 36%; } }
+    height: auto; } }
 
 .header-custom {
   display: flex;
@@ -247,6 +247,9 @@ footer {
 
 .main-trips {
   padding: 130px 11% 30px 25%; }
+
+.body-index {
+  height: 114%; }
 
 .myvideo-custom {
   width: 100%; }
@@ -333,7 +336,8 @@ footer {
     top: 15%;
     left: -18%;
     width: 138%;
-    height: 65%; }
+    height: auto;
+    padding-bottom: 1%; }
     .nosotros-background:hover {
       transform: scale(1.1); } }
 

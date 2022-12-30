@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #023047;
-    height: 40%;
+    height: auto;
     width: 100%;
     .derechos{
         color: #fff;
@@ -57,9 +57,9 @@ height: 50px;
     footer{
     display: flex;
     flex-direction: column;
-    height: 65%;
+    height: auto;
         .derechos{
-            padding: 7% 6% 0%;
+            padding: 7% 2% 0%;
         }
         .footer-contenido{
                 display: flex;
@@ -86,7 +86,7 @@ height: 50px;
         }
     }
     .footer-escuela{
-        height: 36%;
+        height: auto;
 
     }
 }

@@ -40,7 +40,8 @@ width: 700;
         top: 15%;
         left: -18%;
         width: 138%;
-        height: 65%;
+        height: auto;
+        padding-bottom: 1%;
         &:hover{
             transform: scale(1.1);
         }
