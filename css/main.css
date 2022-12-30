@@ -97,6 +97,8 @@ footer {
     font-size: small;
     padding-left: 30%;
     padding-right: 38%; }
+    footer .derechos p {
+      text-align: center; }
 
 .footer-contenido {
   display: flex;
@@ -154,7 +156,7 @@ footer {
         width: 100%; }
         footer .footer-contenido .registro .registrate-button {
           height: 50px;
-          width: 100px;
+          width: auto;
           margin: auto; }
       footer .footer-contenido .redes {
         padding: 50px 0px;
@@ -389,10 +391,7 @@ footer {
     top: 3%;
     text-align: center; }
   .trips-main {
-    background-image: url("../imagenes/kite bote.jpg");
-    background-size: cover;
-    height: 102%;
-    background-position: none;
+    height: 130%;
     background-position-x: 657px; } }
 
 #body-escuela {

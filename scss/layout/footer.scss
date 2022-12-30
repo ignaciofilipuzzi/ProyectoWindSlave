@@ -9,6 +9,9 @@ footer{
         font-size: small;
         padding-left: 30%;
         padding-right: 38%;
+        p{
+            text-align: center;
+        }
     }
 }
 .footer-contenido{
@@ -72,7 +75,7 @@ height: 50px;
                     width: 100%;
                     .registrate-button{
                         height: 50px;
-                        width: 100px;
+                        width: auto;
                         margin: auto;
                     }
                 }
